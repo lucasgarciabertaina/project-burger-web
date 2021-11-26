@@ -6,10 +6,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
     <meta name="description" content="This page is for education of Responsive Design!">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css" media="screen and (min-width: 226px)">
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <section class="logo_burger">
+            <img clas="logo_burger__logo"src="./assets/logo.svg" alt="">
+            <input class="logo_burger__checkbox" type="checkbox">
+            <img class="logo_burger__burger" src="./assets/bars.svg" alt="">
+        </section>
+        <nav>
+            <ul class="sections">
+                <li class="sections__section"><a href="#"></a>Nosotros</li>
+                <li class="sections__section"><a href="#"></a>Promociones</li>
+                <li class="sections__section"><a href="#"></a>Menú</li>
+                <li class="sections__section"><a href="#"></a>Contacto</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="main-section">
+            <img src="" alt="">
+            <h1>My Burger</h1>
+            <h3>Texto secundario</h3>
+            <button>Menu</button>
+        </section>
+        <section class="secundary-section">
+            <article class="ingredients-challenge">
+                <h2 class="ingredients-challenge__title">Ingredientes</h2>
+                <p class="ingredients-challenge__paragraph">10 años de tradición con los mejores ingredientes premium.</p>
+                <div class="ingredients-challenge__img"></div>      
+            </article>
+            <article class="ingredients-challenge">
+                <h2 class="ingredients-challenge__title">Reto Semanal</h2>
+                <p class="ingredients-challenge__paragraph">Sube un video a tu instagram con el hashtag #myBurger contandonos por que te gustan nuestras hamburguesas y obtené un 20% de descuento en tu pedido.</p>
+                <div class="ingredients-challenge__img"></div>      
+            </article>
+        </section>
+        <section class="menus">
+            <ul class="menus__list">
+                <li class="menus__list-number">1</li>
+                <li class="menus__list-number">2</li>
+                <li class="menus__list-number">3</li>
+                <li class="menus__list-number">4</li>
+            </ul>
+            <article class="menu">
+                <h2 class="menu__title">Nombre del Plato</h2>
+                <div class="menu__image"></div>
+                <p class="menu__paragraph">Descripción de los ingredientes no mayor a cuatro lineas de texto.</p>
+                <button class="menu__buttom">$15.00<span class="menu__plus"></span></button>
+            </article>
+            <article class="menu">
+                <h2 class="menu__title">Nombre del Plato</h2>
+                <div class="menu__image"></div>
+                <p class="menu__paragraph">Descripción de los ingredientes no mayor a cuatro lineas de texto.</p>
+                <button class="menu__buttom">$15.00<span class="menu__plus"></span></button>
+            </article>
+            <article class="menu">
+                <h2 class="menu__title">Nombre del Plato</h2>
+                <div class="menu__image"></div>
+                <p class="menu__paragraph">Descripción de los ingredientes no mayor a cuatro lineas de texto.</p>
+                <button class="menu__buttom">$15.00<span class="menu__plus"></span></button>
+            </article>
+            <button class="menus__buttom">Ver Pedido</button>
+        </section>
+        <footer class="footer">
+            <h2 class="footer__title-contact">Contacto</h2>
+            <input type="text" class="footer__title-text">
+            <div class="footer__divisor">
+                <ul class="footer__divisor--right">
+                    <li class="footer__list">Telefono<a href="#"></a></li>
+                    <li class="footer__list">Dirección<a href="#"></a></li>
+                    <li class="footer__list">Horario<a href="#"></a></li>
+                </ul>
+                <ul class="footer__divisor--left">
+                    <li class="footer__list">Instagram<a href="#"></a></li>
+                    <li class="footer__list">Facebook<a href="#"></a></li>
+                    <li class="footer__list">TikTtok<a href="#"></a></li>
+                </ul>
+            </div>
+        </footer>
+    </main>
 </body>
 </html>

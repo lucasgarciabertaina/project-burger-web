@@ -6,3 +6,25 @@
   --color-terciary: #B3807D;
   --color-cuaternary: #664947;
 }
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+
+}
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.logo_burger{
+  width: 30%;
+  height: 30%;
+  margin: 0 auto;
+  background-color: var(--color-primary);
+}
