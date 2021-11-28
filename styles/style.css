@@ -22,9 +22,38 @@ html{
 body{
   font-family: 'Roboto Condensed', sans-serif;
 }
+header{
+  height: 75px;
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+}
 .logo_burger{
-  width: 30%;
-  height: 30%;
-  margin: 0 auto;
-  background-color: var(--color-primary);
+  width: 85%;
+  display: inline-block;
+  margin-left: 15px;
+  padding-bottom: 5%;
+}
+.logo_burger__logo{
+  width: 75px;
+}
+nav{
+  width: 15%;
+  padding-bottom: 7%;
+}
+.nav__checkbox{
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 15px;
+  opacity: 0;
+}
+.nav__sections{
+  display: none;
+}
+.nav__burger{
+  width: 20px;
+  margin-left: 15px;
 }
