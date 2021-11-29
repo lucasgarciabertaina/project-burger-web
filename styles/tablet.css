@@ -1,0 +1,30 @@
+header{
+    flex-direction: row;
+}
+nav{
+    width: 85%;
+    height: 100%;
+    padding-bottom: 0;
+}
+.logo_burger{
+    width: 15%;
+}
+.nav__checkbox{
+    display: none;
+}
+.nav__burger{
+    display: none;
+}
+.nav__sections{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav__section{
+    display: inline-block;
+}
+.nav__link{
+    font-size: 1.8rem;
+    margin-left: 25px;
+}
