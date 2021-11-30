@@ -20,6 +20,7 @@ nav{
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .nav__section{
     display: inline-block;
@@ -27,4 +28,112 @@ nav{
 .nav__link{
     font-size: 1.8rem;
     margin-left: 25px;
+}
+.logo_burger__logo{
+    width: 125px;
+}
+.main-section{
+    background-image: url('../assets/main-tablet-image.jpeg');
+}
+.main-section__title{
+    font-size: 4.8rem;
+}
+.main-section__secundary-title {
+    font-size: 2.8rem;
+}
+.main-section__menu{
+    margin-top: 45px;
+}
+.ingredients-challenge{
+    display: flex;
+}
+.ingredients-challenge--left{
+    flex-direction: row-reverse;
+}
+.ingredients-challenge__tablet-divisor{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-right: 57px;
+}
+.ingredients-challenge__title{
+    padding-top: 80px;
+    font-size: 3rem;
+    margin-left: 40px;
+}
+.ingredients-challenge__paragraph{
+    margin: 0;
+    margin-left: 40px;
+    font-size: 1.6rem;
+    padding-top: 10px;
+}
+.ingredients-challenge__img{
+    width: 450px;
+    height: 215px;
+    margin-top: 45px;
+}
+.menus{
+    position: relative;
+    height: 460px;
+}
+.menus__title{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 26px;
+    font-size: 2.8rem;
+}
+.menus__list{
+    margin-left: calc(15% - 115px);
+    margin-bottom: 20px;
+}
+.menus__list-number{
+    padding: 8px 77px;
+    margin-left: 25px;
+    font-size: 3.4rem;
+}
+.menus__menu-divisor{
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    border-top: 0;
+    width: 230px;
+    height: 185px;
+    border: 1px solid grey;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+.menu__tablet-divisor{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.menu__title{
+    margin-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 32px;
+}
+.menu__paragraph{
+    margin-bottom: 10px;
+    width: 88px;
+    height: 70px;
+    font-size: 1.2rem;
+}
+.menu__image{
+    margin-top: 33px;
+    width: 130px;
+    height: 130px;
+    margin-left: 5px;
+}
+.menus__buttom{
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
+.footer__title-contact {
+    padding-bottom: 0;
+}
+.footer__title-contact{
+    font-size: 2.8rem;
 }
