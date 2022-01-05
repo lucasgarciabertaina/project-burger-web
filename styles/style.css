@@ -171,6 +171,7 @@ nav{
 .menu{
   border-top: 2px solid var(--color-black);
   height: 155px;
+  display: flex;
 }
 .menu__title{
   margin-left: 5px;
@@ -178,10 +179,9 @@ nav{
   padding-bottom: 10px;
 }
 .menu__image{
-  display: inline-block;
   width: 130px;
   height: 70px;
-  margin-left: 5px;
+  margin-top: 34px;
   background-color: var(--color-primary);
 }
 .menu__paragraph{
